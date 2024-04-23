@@ -27,7 +27,7 @@ export default async function handler(req: NextApiRequest,res: NextApiResponse) 
       TradeDesc,
       ItemName,
       ReturnURL: `${NEXT_PUBLIC_RETURN_URL}`,
-      ClientBackURL : `${NEXT_PUBLIC_CLIENTBACK_URL}`,
+      OrderResultURL : `${NEXT_PUBLIC_CLIENTBACK_URL}`,
     };
 
     try {
